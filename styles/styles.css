@@ -79,3 +79,8 @@ footer {
     border-top: 1px solid var(--main-color);
     text-align: center;
 }
+
+ul.box {
+    width: fit-content;
+    padding-left: 2rem;
+}
