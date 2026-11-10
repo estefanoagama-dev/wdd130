@@ -1,3 +1,20 @@
+/* Class Selectors */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    margin: 1rem;
+    border: 1px solid var(--default-color);
+    padding: 1rem;
+    background-color: orange;
+    color: var(--main-color);
+
+}
+
 :root {
     --default-color: darkblue;
     --main-color: black;
@@ -8,6 +25,7 @@ main {
 }
 
 aside {
+    position: relative;
     width: 20em;
     margin: 6px;
     border: 2px dashed var(--main-color);
@@ -20,6 +38,12 @@ aside {
 aside img {
     width: 200px;
     height: auto;
+}
+
+aside h2 {
+    position: absolute;
+    top: 15px;
+    left: 110px;
 }
 
 nav {
@@ -43,6 +67,7 @@ main img {
     border: 1px solid var(--main-color);
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 
 p {
