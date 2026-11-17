@@ -20,10 +20,6 @@
     --main-color: black;
 }
 
-main {
-    max-width: 840px;
-}
-
 aside {
     position: relative;
     width: 20em;
@@ -49,16 +45,26 @@ aside h2 {
 nav {
     background-color: var(--default-color);
     padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-content: center;
+
 }
 
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    text-decoration: none;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+
 }
 
 h1 {
     color: var(--default-color);
+    border-bottom: 1px solid var(--default-color);
 }
 
 main img {
@@ -74,6 +80,24 @@ p {
     padding: 0;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
+aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
 footer {
     margin-top: 15px;
     border-top: 1px solid var(--main-color);
@@ -83,4 +107,11 @@ footer {
 ul.box {
     width: fit-content;
     padding-left: 2rem;
+}
+
+header,
+.grid,
+footer {
+    max-width: 840px;
+    margin: 0 auto;
 }
