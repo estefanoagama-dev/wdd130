@@ -32,7 +32,7 @@ header img {
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    color: var(--primary-color);
 }
 
 main,
@@ -125,12 +125,12 @@ nav li {
 
 .hero h1 {
     position: absolute;
+    color: var(--primary-color);
     top: 20px;
     width: 100%;
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent2-color);
-    color: white;
     padding: 16px;
 }
 
