@@ -87,6 +87,8 @@ article {
 
 nav a {
     color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: bold;
 }
 
 nav ul {
@@ -98,11 +100,6 @@ nav ul {
 
 nav li {
     padding: 10px;
-}
-
-nav a {
-    text-decoration: none;
-    font-weight: bold;
 }
 
 .socialmedia {
@@ -147,6 +144,12 @@ nav a {
     opacity: 0.9;
     padding: 10px;
 
+}
+
+.hero article h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .hero article img {
