@@ -29,6 +29,9 @@ aside {
     background-color: #ADD8E6;
     color: blue;
     text-align: center;
+    width: 20rem;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside img {
@@ -49,6 +52,7 @@ nav {
     flex-direction: row;
     justify-content: space-evenly;
     justify-content: center;
+    gap: 1.5rem;
 
 }
 
@@ -72,8 +76,10 @@ main img {
     height: auto;
     border: 1px solid var(--main-color);
     padding: 2px;
+    margin: 2rem 0 1rem 1rem;
     box-shadow: 0 0 30px gray;
     float: right;
+
 }
 
 p {
@@ -83,19 +89,12 @@ p {
 .grid {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    align-items: center;
+    align-items: start;
 }
 
 main {
     grid-column: 2/3;
     margin: 1rem;
-}
-
-aside {
-    width: 20rem;
-    position: relative;
-    grid-column: 1/2;
-    grid-row: 1/2;
 }
 
 footer {
@@ -105,7 +104,7 @@ footer {
 }
 
 ul.box {
-    width: fit-content;
+    width: 90%;
     padding-left: 2rem;
 }
 
