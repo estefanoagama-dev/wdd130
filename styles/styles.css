@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+:root {
+    --default-color: darkblue;
+    --main-color: black;
+}
+
 .box {
     margin: 1rem;
     border: 1px solid var(--default-color);
@@ -13,11 +18,6 @@
     background-color: orange;
     color: var(--main-color);
 
-}
-
-:root {
-    --default-color: darkblue;
-    --main-color: black;
 }
 
 aside {
