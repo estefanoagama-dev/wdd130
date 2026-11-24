@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Form</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+<body>
+    <header>
+        <h1>Basic HTML and CSS Quiz</h1>
+    </header>
+
+    <main>
+        <form>
+
+            <ol>
+                <li>
+                    <div class="question-item">
+                        <label for="acronym-css">What does the acronym CSS stands for?</label>
+                        <textarea rows="3" name="acronym-css" id="acronym-css" required></textarea>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="question-item">
+                        <label for="id-class">How are id and class attributes selected in CSS?</label>
+                        <textarea rows="6" name="id-class" id="id-class" required></textarea>
+                    </div>
+
+                </li>
+
+                <li>
+                    <div class="question-item">
+                        <label for="comment">Which of the following is a valid CSS comment?</label>
+                        <select name="comment" id="comment" required>
+                            <option value="" disabled selected>Select one...</option>
+                            <option value="// This is a comment">// This is a comment</option>
+                            <option value="&lt;!-- This is a comment --&gt;">&lt;!-- This is a comment --&gt;</option>
+                            <option value="/* This is a comment */">/* This is a comment */</option>
+                        </select>
+                    </div>
+
+                </li>
+
+                <li>
+                    <div class="question-item">
+                        <label for="bottom-margin">What is the bottom margin given in this declaration?</label>
+                        <code>margin: 10px 5px 15px;</code>
+                        <textarea rows="3" name="bottom-margin" id="bottom-margin" required></textarea>
+                    </div>
+                </li>
+            </ol>
+
+            <button type="submit">Submit Quiz</button>
+        </form>
+
+    </main>
+</body>
+
+</html>

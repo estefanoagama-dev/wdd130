@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Merriweather, Georgia, serif;
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: left;
+    margin: 1rem;
+    padding-left: 2.8rem;
+    color: rgb(3, 3, 114);
+    font-size: 30px;
+}
+
+form {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 620px;
+    padding: 1rem;
+    border: 1px solid rgb(95, 214, 206);
+    background-color: rgb(95, 214, 206);
+    display: grid;
+}
+
+ol {
+    padding: 1.2rem 1rem;
+}
+
+li {
+    margin-bottom: 1.5rem;
+}
+
+.question-item {
+    display: grid;
+    gap: .5rem;
+}
+
+label,
+input,
+button,
+select,
+textarea {
+    font-family: Roboto, Arial, sans-serif;
+}
+
+label {
+    text-align: left;
+}
+
+textarea,
+select {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+ol li::marker {
+    color: rgb(3, 3, 114);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+code {
+    background-color: black;
+    color: white;
+    width: 100%;
+    max-width: 455px;
+    text-align: left;
+    margin: .5rem auto;
+    padding: 1rem;
+}
+
+button {
+    background-color: rgb(3, 3, 114);
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: .5rem;
+}
